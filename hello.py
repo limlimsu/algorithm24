@@ -1,2 +1,2 @@
 print("hello world")
-print("test mode")
+print("test code")
