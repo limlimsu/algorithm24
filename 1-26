@@ -1,0 +1,8 @@
+def is_proper_subset(A, B):
+    """집합 A가 집합 B의 진부분집합인지를 검사합니다."""
+    return A.issubset(B) and A != B
+
+setA = set([1,2])
+setB = set([1,2,3])
+
+print(is_proper_subset(setA, setB))  # True: set1은 set2의 진부분집합
